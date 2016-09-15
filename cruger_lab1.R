@@ -21,5 +21,3 @@ bookstore_sale <- bookstore %>%
 bookstore_subset <- bookstore_sale %>%
   filter(newprice!=price) %>%
   select(authors,title,newprice)
-
-random edit 
